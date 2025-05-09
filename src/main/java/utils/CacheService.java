@@ -21,6 +21,11 @@ public class CacheService {
     public static void clearCacheInstance() {
         destroyValues();
         cacheService = null;
+        setProductId(null);
+        setProductName(null);
+        setProductType(null);
+        setProductPrice(null);
+        setAuthenticationToken(null);
     }
 
     public static void destroyValue(String key) {

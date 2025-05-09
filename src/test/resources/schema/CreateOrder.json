@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "orderId": {
+      "type": "string"
+    },
+    "productId": {
+      "type": "string"
+    },
+    "productName": {
+      "type": "string"
+    },
+    "orderType": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "previousStock": {
+      "type": "integer"
+    },
+    "newStock": {
+      "type": "integer"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "success",
+    "orderId",
+    "productId",
+    "productName",
+    "orderType",
+    "quantity",
+    "username",
+    "previousStock",
+    "newStock",
+    "timestamp"
+  ]
+}

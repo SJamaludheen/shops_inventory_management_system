@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "dbStatus": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "dbStatus"
+  ]
+}

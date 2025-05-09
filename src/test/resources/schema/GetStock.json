@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "string"
+    },
+    "totalBuys": {
+      "type": "integer"
+    },
+    "totalSells": {
+      "type": "integer"
+    },
+    "currentStock": {
+      "type": "integer"
+    },
+    "totalTransactions": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "productId",
+    "totalBuys",
+    "totalSells",
+    "currentStock",
+    "totalTransactions"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "productType": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "productId": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "__v": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "_id",
+    "name",
+    "price",
+    "productType",
+    "quantity",
+    "productId",
+    "createdAt",
+    "__v"
+  ]
+}
