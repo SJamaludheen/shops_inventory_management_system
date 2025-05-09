@@ -80,7 +80,7 @@ schema files are defined under src>test>resources>schema. These files define the
 
 All the libraries used in the framework are listed as dependencies in pom.xml of the project. GSON is one of them.
 As part of the request we will be sending payloads to some of the endpoints. We use GSON to load the request payloads stored under folder src>test>resources>requestpayloads into java object instances. The conversion happens in src>test>java>requests>RequestBuilder.
-The main top level object (e.g.: src>main>java>createObject>CreateObject.java) is initialised during the test and the request payload is stored in to the main java object.
+The main top level object (e.g.: src>main>java>addProduct>AddProduct.java) is initialised during the test and the request payload is stored in to the main java object.
 To convert a json in to java objects, create a directory under src>main>jsonfactory and add POJOs (generated from JSON).
 
 
